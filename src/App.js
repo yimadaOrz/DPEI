@@ -44,7 +44,7 @@ function App() {
       <Provider store = {store}>
       <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage/>} /> 
+            <Route path="/DPEI" element={<HomePage/>} /> 
           </Routes>
           <Routes>
             <Route path="/FlatMarkers" element={<FlatMarkers/>} />
