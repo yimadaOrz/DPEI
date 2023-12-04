@@ -1,0 +1,47 @@
+
+
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.4s ease;
+    }
+
+
+
+
+/* If screen size is more than 768px wide */
+@media screen and (min-width: 768px) {
+    .gallery_container{
+        margin: auto;
+        width: 85%;
+        padding: 10px;
+    }
+  }
+
+
+ /* If screen size is more than 1200px wide, */
+@media screen and (min-width: 1200px) {
+    .gallery_container{
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+    }
+  }
+
+
+
+   /* If screen size is more than 1750px wide, */
+@media screen and (min-width: 1750px) {
+    .gallery_container{
+        margin: auto;
+        width: 65%;
+        padding: 10px;
+    }
+  }
+
+

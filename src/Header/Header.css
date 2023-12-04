@@ -1,0 +1,128 @@
+/* @font-face {
+    font-family: 'storeTitleFont';
+    src:url('../Utitles/stroe_title_font.ttf') format('truetype');
+  } */
+
+ .header-container{
+    background-color:white;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.header_title{
+    letter-spacing: 17px;
+    /* font-family: 'storeTitleFont' ; */
+}
+
+.right_subtitle{
+    letter-spacing: 2px;
+}
+
+.header_image{
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+}
+/* nice usage */
+/* .header_wrapper{
+    display: inline-block;
+    text-align: left;  
+} */
+
+.header_inner_left_container{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header_inner_right_container{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+
+
+@media (max-width: 768px) { 
+    .header-container{
+        background-color:white;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+
+    .header_inner_left_container{
+        all:unset,
+    }
+    
+    .header_inner_right_container{
+        all:unset
+
+    }
+
+    .header_title{
+        text-align: center;
+    }
+    
+    .right_subtitle{
+        text-align: center;
+    }
+    
+}
+
+
+@media (min-width: 375px) { 
+
+}
+
+
+@media (min-width: 576px) { 
+}
+
+
+
+@media (min-width: 768px) { 
+
+}
+
+
+@media (min-width: 992px) { 
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+    /* .header-container{
+        background-color:#f7f7f7;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+        justify-content: center; 
+       
+    } */
+   
+
+}
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ /* @media (min-width: 1200px) {
+
+
+
+ } */

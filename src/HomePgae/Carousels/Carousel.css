@@ -1,0 +1,58 @@
+/* .carousel_container{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.carousel_container{
+   height: 50%;
+    width: 50%;
+    
+
+}
+
+.img_size{
+    max-width: 100%;  /* Set maximum width to maintain aspect ratio */
+    max-height: 100%; /* Set maximum height to maintain aspect ratio */
+    width: 400px;     /* Initial width */
+    height: 280px;    /* Initial height */
+}
+
+
+/* If screen size is more than 768px wide */
+@media screen and (max-width: 481px ) {
+    .img_size{
+        width:100px;
+        height:100px;
+    }
+    
+  }
+
+
+@media screen and  (max-width: 768px) and (min-width: 482px){
+    .img_size{
+        width:300px;
+        height:150px;
+    }
+    
+  }
+
+
+ /* If screen size is more than 1200px wide, */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .img_size{
+        width:300px;
+        height:200px;
+    }
+  }
+
+
+
+   /* If screen size is more than 1750px wide, */
+@media screen and (min-width: 1750px) {
+   
+  }

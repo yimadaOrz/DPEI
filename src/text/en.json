@@ -1,0 +1,209 @@
+
+
+
+{
+    "navbar": {
+        "item1": "Home",
+        "item2": {
+            "item2":"Asian",
+             "subitem1":"Flat Markers",
+             "subitem2":"Slant Markers",
+             "subitem3":"Single Monuments",
+             "subitem4":"Double Monuments",
+             "subitem5":"Family Monuments",
+             "subitem6":"Memorial Arches"
+
+        },
+        "item3": {
+            "item3":"Western",
+            "subitem1":"Flat Markers",
+            "subitem2":"Slant Markers",
+            "subitem3":"Single Monuments",
+            "subitem4":"Double Monuments",
+            "subitem5":"Shaped Monuments"
+        },
+        "item4": "Urn",
+        "item5": {
+            "item5":"About Us",
+             "subitem1":"About Us",
+             "subitem2":"Product And Service",
+             "subitem3":"How to Order Monuments",
+             "subitem4":"Ten Questions and Answers on Monuments",
+             "subitem5":"Privacy Policy"
+        },
+        "item6": "Contact Us",
+        "item7": "繁體中文"
+    },
+    "information":{
+        "item1":{
+            "item1":"CONTACT US",
+            "subitem1":"Phone Number",
+            "subitem2":"Location",
+            "subitem3":"Email",
+            "subitem4":"WeChat"
+        },
+        "item2":{
+            "item2":"BUSINESS HOURS",
+            "subitem1":"Monday",
+            "subitem2":"Tuesday",
+            "subitem3":"Wednesday",
+            "subitem4":"Thursday",
+            "subitem5":"Friday",
+            "subitem6":"Saturday",
+            "subitem7":"Sunday" ,
+            "subitem8":"Closed"
+        }
+    },
+
+    "FAQ":{
+        "title":"Ten Questions and Answers on Monuments",
+        "item1":{
+            "Q":"1 Q: After the family orders the tombstones, how long does it take to complete?",
+            "A":"A: If you order a regular tombstone with a fixed pattern, it only takes half a year after the cemetery’s approval to complete it. Family monuments take more than eight months to complete after cemetery approval."
+        },
+        "item2":{
+            "Q":"2 Q: What are the dimensions that belong to the regular monument?",
+            "A":"A: The size of a conventional tombstone is for cemeteries in the eastern United States. There are two types of conventional monuments: single monument and double monument: single monument: main monument 20 x 8 x 30 base 24 x 12 x 8 double monument: main monument 36 x 8 x 24 base 42 x 12 x 8"
+        },
+        "item3":{
+            "Q":"3 Question: Yonglong Where are the tombstones produced?",
+            "A":"A: Yonglong’s tombstone factory is located in China. Large-scale monuments, special-shaped monuments, exquisite pattern carvings, as well as auspicious cups and sacrificial bottles are all produced in China. Due to the development of information technology and modern industries, there is only a distance in transportation, but no distance in management."
+        },
+        "item4":{
+            "Q":"4 Q: To make tombstones in the United States, American stone and Indian stone are commonly used. Is the quality of stone produced in China guaranteed ?",
+            "A":"A: In China, there is an old saying that sums up China’s geographical environment: “Seven mountains, two waters, one field”. This sentence undoubtedly tells the world that China is a big stone producing country. In fact, many stone types produced in China are already popular in the American tombstone market. Tombstones are definitely a durable and permanent outdoor product, so the processing of tombstones requires a lot of expertise and processing procedures. Yonglong Tombstone Factory introduced advanced production equipment from the United States and Germany to enable Yonglong to produce The tombstones meet international standards."
+        },
+        "item5":{
+            "Q":"5 Q: How many types of stone are there for tombstones?",
+            "A":"Answer: There are two types of stone: marble and granite. Marble is soft and granite is hard, so only granite can be used as a tombstone. The three types of granite that are popular in the market are: grey stone; red stone; black stone. Grey stone is cheap and good quality, and has a traditional outlook, so it is the choice of many Chinese compatriots. There are also many people who love redstone, and Indian red is the first choice among redstones. Among blackstones, Indian blackstones are world-famous, but now Chinese blackstones have become popular in the United States. Other common stone species include Fujian blue, Bahamian blue, opal, and so on. Yonglong’s stele showroom has a variety of samples on display, and family members are welcome to visit and order."
+        },
+        "item6":{
+            "Q":"6 Q: Can I make an inquiry over the phone?",
+            "A":"A: Yonglong welcomes family members to call for inquiries, but there are several issues that must be paid attention to: 1. Due to the different regulations of each cemetery, family members should provide the information of the cemetery when inquiring. 2. Except for conventional tombstones whose price is relatively stable due to their fixed size, for all other tombstones, family members must provide information on the size of the tombstone and the location of the cemetery before quoting. Because the size of the tombstone affects the price, and each cemetery has regulations for different lots. If there is no relevant information on the cemetery, inquiring with the size you take for granted may be a waste of time. 3. Yonglong’s quotation includes one-stop service, from agency cemetery application documents, to pattern design, manufacturing, delivery and installation; this quotation does not include the cemetery’s foundation fee and application fee."
+        },
+        "item7":{
+            "Q":"7 Q: Can I choose a date when the tombstone is placed?",
+            "A":"A: Yonglong provides the service of choosing auspicious days to install monuments, but family members need to pay extra for this service."
+        },
+        "item8":{
+            "Q":"8 Q: After the signature of the tombstone design drawing is confirmed, can I make changes?",
+            "A":"A: Once the drawings are signed and confirmed by the family, they will be sent to the cemetery for approval. After the cemetery approves, the factory will produce according to the drawings. Therefore, the tombstone design drawings cannot be changed after the signature and confirmation of the family members."
+        },
+        "item9":{
+            "Q":"9 Q: Americans can also make Chinese tombstones. What are the advantages of Yonglong tombstones?",
+            "A":"Answer: Yonglong tombstone has three major advantages: First, cultural advantages. In the process of making, Chinese square characters have their expressive artistic conception, which can only be mastered by Chinese masters. Second, communication advantages. Yonglong is a Chinese manufacturer, not a middleman. If your family has any requirements, you can communicate with us directly. Third, store advantage. Yonglongmen City Department has a large-scale stone tablet exhibition hall with complete information, which is convenient for family members to order."
+        },
+        "item10":{
+            "Q":"10 Q: The Chinese tombstones designed and manufactured by Yonglong are unique in artistic conception and craftsmanship. Can you give an introduction to common sense in this regard ?",
+            "A":"A: Traditionally, the Chinese believe that tombstones are the century-old heritage of future generations, and that carelessness will bring disaster to future generations. So it is very important to have some knowledge in this area. When making Chinese tombstones, pay attention to the following issues. One, font selection and processing. The font is selected appropriately, engraved on granite, and the effect is stable Built and deep, the taste deepens over the years. In the process of engraving, computer samples often change the font slightly, and the distortion is regrettable. Masters with Chinese roots can correct the blind spots of computers in the engraving process. Second, the choice of pattern. Choose a tombstone pattern and be full of business. If the tree is selected, it must have leaves, stems and rhizomes. Choose bamboo trees and bamboos to report safety and rise steadily. In addition, pine cranes, lions, lotus flowers, roses, winter plums, and monarch orchid are all good design choices. Third, the stone carving process. Stone carving is a specialized craft, and the lettering techniques include concave characters, convex characters, lace and so on. Pattern processing line engraving, deep engraving. The surface treatment is polished, sanded, natural grain, and so on. Different designs have different process applications. Fourth, portraits. When making portraits, pay attention to choosing durable materials. The porcelain phase produced by Yonglong is fired according to the traditional ancient method and will never fade. In addition, Yonglong also has high attainments in black stone shadow sculpture portraits."
+        }
+    },
+
+    "Privacy":{
+        "item1":"On the Yonglong Tombstone website, there are many Yonglong Tombstones for visitors to browse. Each tombstone is a work of art, and behind each tombstone, there is an extraordinary story.",
+        "item2":"In order to protect the privacy of his family, Yonglong has already blurred the stele works displayed on the Internet. But this will affect the complete view of the tombstone. Yonglong respects the wishes of the family members. If the family members do not agree with the blurring, or do not agree with the tombstone pictures being online, please call to inform us, and Yonglong will deal with them according to the opinions of the family members."
+    },
+
+    "ContactUs":{
+        "item1":{
+            "title": "Leave us a meesage",
+            "subitem1": "Name",
+            "subitem2": "Email",
+            "subitem3": "Phone",
+            "subitem4": "Message",
+            "subitem5": "Send"
+        },
+        "item2":{
+            "title": "Contact us",
+            "subitem1": "Phone Numebr",
+            "subitem2": "Location",
+            "subitem3": "Email",
+            "subitem4": "WeChat"
+        }
+    },
+
+    "HowToOrder":{
+        "item1":"1 The family must provide the name of the cemetery and the location of the blessed land.",
+        "item2":"2 Families preferably provide cemetery title deeds. If it is a public office, church, or other organization, the relevant The signature or seal of the manager.",
+        "item3":"3 Based on the cemetery information provided by the family, Yonglong makes appropriate professional suggestions for the design of the tombstone for the family refer to.",
+        "item4":"4 The family chooses the stone and design according to their personal situation. The company’s stone monument exhibition hall has a wealth of tombstones. board to choose from.",
+        "item5":{
+            "item5":"5 quotes:",
+            "subitem1":"5.1 Yonglong quotes according to the size of the tombstone specified by the cemetery.",
+            "subitem2":"5.2 Yonglong’s quotation includes one-stop service, from handling cemetery application documents, to pattern design, manufacturing, Delivery and installation.",
+            "subitem3":"5.3 Yonglong’s quotation does not include the foundation fee and application fee of the cemetery."
+        },
+        "item6":"6 The company informed the family of the estimated cost of the cemetery foundation. (Generally, the cemetery foundation fee is paid by the contractor collection).",
+        "item7":"7 The company completes the design drawings according to the requirements of the family. Family members must sign on the design drawings for confirmation.",
+        "item8":"8 The factory produces tombstones according to the drawings confirmed by the family members, so the drawings signed by the family members cannot be changed.",
+        "item9":{
+            "item9":"9 The detailed requirements listed on the design drawings generally include the following 4 points:",
+            "subitem1":"9.1 Whether to color, (some cemeteries are not allowed)",
+            "subitem2":"9.2 Whether porcelain phase is required, (some cemeteries are not allowed)",
+            "subitem3":"9.3 Is it necessary to apply gold foil (some cemeteries are not allowed)",
+            "subitem4":"9.4 List the manufacturing process used."
+        },
+        "item10":{
+            "item10":"10 Four things your family should do:",
+            "subitem1":"10.1 Sign to confirm the design drawings;",
+            "subitem2":"10.2 Sign the Cemetery Application Form;",
+            "subitem3":"10.3 Sign the family power of attorney;",
+            "subitem4":"10.4 Payment."
+        },
+        "item11":"11 Awaiting cemetery approval. (General approval time takes two to six weeks, but may take longer cases, depending on each cemetery)",
+        "item12":"12 Time to go up the mountain: For some conventional tombstones, you can go up the mountain half a year after the approval of the cemetery. The family monument will take a year to complete.",
+        "item13":"13 Notes on the time to climb the mountain: Sometimes the cemetery does not have enough time to prepare the foundation, which delays the time to climb the mountain. this In addition, the winter closure period of the cemetery must also be taken into account."
+        },
+
+        "ProductAndService":{
+            "title":"產品和服務",
+            "summary1":"概述： 刻製墓碑是一個古老的行業。由於電腦科技的發達，刻製墓碑已經成為一個 傳統文化和新科技相結合的新興行業。",
+            "summary2":"為了更好地為美國僑胞服務，永龍石 碑廠運用新科技，開發出許多獨一無二的產品和服務項目，解決了許多由於 文化的差異，多年來在美國華人社會無法解決的老大難問題。 永龍企業產品系列：",
+            "item1":{
+                "item1":"1 墓碑:",
+                "subitem1":"1.1 常規墓碑，",
+                "subitem2":"1.2 家族大碑"
+            },
+            "item2":{
+                "item2":"2 大型石製工程:",
+                "subitem1":"2.1 宗親牌坊",
+                "subitem2":"2.2 石屋陵園"
+            },
+            "item3":{
+                "item3":"3 吉盅:",
+                "subitem1":"3.1 天然石吉盅",
+                "subitem2":"3.2 銅製吉盅",
+                "subitem3":"3.3 人造石吉盅"
+            },
+            "item4":"4 瓷相",
+            "item5":{
+                "item5":"5 石畫 服務項目：",
+                "subitem1":"5.1 吉盅中英文刻字。",
+                "subtext1":"說明：就跟刻製碑文一樣，家人要在安置先人骨殖的吉盅上，銘刻碑文。 由於技術上的障礙，這件事長久以來是一個難題。一些家人甚至僱用招牌 公司，像做招牌那樣，將碑文貼在吉盅上面。永龍開發出先進的技術，像 做迷你墓碑那樣，將碑文銘刻在盅身，美觀莊重，親情和碑文永存。這種 雕刻技術適合多種材質，如天然石，銅製品，人造石，等等。",
+                "subitem2":"5.2 上山刻字。",
+                "subtext2":"說明：如果雙人碑的另一半留空，當另一半百年歸老，家人就需要上山刻 字的服務。",
+                "subitem3":"5.3 美東華人中文墓碑服務。",
+                "subtext3":"說明：雖然墓碑的噸位大，運輸不方便，但是永龍墓碑廠的產品和服務， 可以涵蓋美東大部份的地區。歡迎華裔家人上網查詢。"
+            }
+           
+            },
+
+            "AboutUs":{
+                "title":"About us",
+                "item1":{
+                    "item1":"New York Dragon Peace Enterprise Inc.",
+                    "item2":""
+                },
+                "item2":{
+                    "item2":"New York Dragon Peace Enterprise Inc. (DPEINY) is a professional designer and manufacturer of monuments. We were founded in New York in 2000 and have a factory located in GuangDong, China. The factory uses advanced production equipment from the United States and Germany, which enables DPEINY to produce monuments that meet international standards. \n\nWe design and produce regular monuments, shaped monuments, family monuments, memorial arches, Mausoleum, and stone statues. Our works are thus far installed in more than 100 cemeteries in the Northeast United States. With our history and experience, DPEINY has an excellent reputation for its services and products. \n\nOur office has a showroom with a wide range of products and samples on display. We invite and welcome you to visit our office to learn more, and where we can help with any questions.",
+                    "subitem1":""
+                }
+                }
+
+
+
+  
+
+        
+}
+ 

@@ -1,0 +1,116 @@
+.menus{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    gap:60px;
+    /* position: relative;
+    display: inline-block; */
+   
+}
+
+
+.menu-items{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+   
+}
+
+
+.menu-items:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .menu-items:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  
+
+
+/* .menu-items:hover{
+  
+    text-decoration: underline;
+} */
+
+
+
+.img-resize{
+    width:50px;
+    height:1000px;
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+ 
+ }
+
+ .navbar_container{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .narbar_wrapperClass{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ /* .narbar_buttonsClass{
+
+    background: white;
+    font-size: 20px;
+    font-family: Roboto;
+
+ } */
+
+
+ .navdropdown-item {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .navdropdown-item {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .navdropdown-item {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+
+ @media screen and (max-width: 960px){
+
+ }
+

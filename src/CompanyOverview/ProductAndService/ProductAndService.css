@@ -1,0 +1,41 @@
+.ProductAndService_container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    /* height: 80em; */
+    gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .ProductAndService_container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        /* height: 80em; */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 764px) {
+    .ProductAndService_container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        /* height: 85em; */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 481px) {
+    .ProductAndService_container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        /* height: 95em; */
+        gap: 20px;
+    }
+}
