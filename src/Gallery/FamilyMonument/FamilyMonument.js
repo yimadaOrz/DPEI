@@ -35,7 +35,7 @@ const FamilyMonument = () => {
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [imagesPerPage, setImagesPerPage] = useState(9);
+  const [imagesPerPage, setImagesPerPage] = useState(12);
       const [totalImages, setTotalImages] = useState(photos.length);
   // const [currentPhotos, setCurrentPhotos] = useState(17);
 
