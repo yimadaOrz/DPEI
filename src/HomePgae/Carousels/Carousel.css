@@ -49,7 +49,7 @@
  /* If screen size is more than 1200px wide, */
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .img_size {
-        max-height: 200px; /* 设置最大高度，可以根据需要调整 */
+        max-height: 300px; /* 设置最大高度，可以根据需要调整 */
         width: auto; /* 自动调整宽度以保持原始比例 */
     }
 
@@ -60,7 +60,7 @@
    /* If screen size is more than 1750px wide, */
 @media screen and (min-width: 1750px) {
     .img_size {
-        max-height: 200px; /* 设置最大高度，可以根据需要调整 */
+        max-height: 350px; /* 设置最大高度，可以根据需要调整 */
         width: auto; /* 自动调整宽度以保持原始比例 */
     }
 
