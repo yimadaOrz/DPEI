@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DPEI/static/css/main.9b2677bb.css",
-    "main.js": "/DPEI/static/js/main.a4b78e0b.js",
+    "main.css": "/DPEI/static/css/main.e8a3aa7e.css",
+    "main.js": "/DPEI/static/js/main.b1224364.js",
     "static/js/787.ac89ed12.chunk.js": "/DPEI/static/js/787.ac89ed12.chunk.js",
     "static/media/Y1395 42x38.jpg": "/DPEI/static/media/Y1395 42x38.187b9f687bf2c667da01.jpg",
     "static/media/Y1615 78x34.jpg": "/DPEI/static/media/Y1615 78x34.8f985663ecc6ade81f2d.jpg",
@@ -228,7 +228,6 @@
     "static/media/Y1506  18x10.jpg": "/DPEI/static/media/Y1506  18x10.2a7c347eee316dbe3018.jpg",
     "static/media/Y1105 24x18.jpg": "/DPEI/static/media/Y1105 24x18.ebda1be2a6857e39fd0a.jpg",
     "static/media/P2968 24x14.jpg": "/DPEI/static/media/P2968 24x14.124021445fe86de509cb.jpg",
-    "static/media/Y1196 20x24.jpg": "/DPEI/static/media/Y1196 20x24.542f566a90b7acaca627.jpg",
     "static/media/Y1052 24x12.jpg": "/DPEI/static/media/Y1052 24x12.486aca607249df54f25d.jpg",
     "static/media/Y151 162x44.jpg": "/DPEI/static/media/Y151 162x44.d7177ab0fbf25f5f707a.jpg",
     "static/media/Y920 20x30.JPG": "/DPEI/static/media/Y920 20x30.56a50a61f91233653361.JPG",
@@ -365,15 +364,16 @@
     "static/media/J08-青玉方盅.jpg": "/DPEI/static/media/J08-青玉方盅.9e9c708bb20053b58dce.jpg",
     "static/media/J08-白玉方盅.jpg": "/DPEI/static/media/J08-白玉方盅.96dfbb400904ff9f046e.jpg",
     "static/media/ET3653 .jpg": "/DPEI/static/media/ET3653 .3e803efdc151f37ba385.jpg",
+    "static/media/Y1196 20x24.jpg": "/DPEI/static/media/Y1196 20x24.1b463f58b61f63997342.jpg",
     "static/media/ET4003 .jpg": "/DPEI/static/media/ET4003 .d3716c32d146fc32d5d6.jpg",
     "static/media/wechat.svg": "/DPEI/static/media/wechat.135eedae4e65737d4fe61ccc8097eeea.svg",
     "index.html": "/DPEI/index.html",
-    "main.9b2677bb.css.map": "/DPEI/static/css/main.9b2677bb.css.map",
-    "main.a4b78e0b.js.map": "/DPEI/static/js/main.a4b78e0b.js.map",
+    "main.e8a3aa7e.css.map": "/DPEI/static/css/main.e8a3aa7e.css.map",
+    "main.b1224364.js.map": "/DPEI/static/js/main.b1224364.js.map",
     "787.ac89ed12.chunk.js.map": "/DPEI/static/js/787.ac89ed12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b2677bb.css",
-    "static/js/main.a4b78e0b.js"
+    "static/css/main.e8a3aa7e.css",
+    "static/js/main.b1224364.js"
   ]
 }
