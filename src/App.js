@@ -47,6 +47,9 @@ function App() {
             <Route path="/DPEI" element={<HomePage/>} />
           </Routes>
           <Routes>
+              <Route path="/i18n" element={<i18n/>} />
+          </Routes>
+          <Routes>
             <Route path="/FlatMarkers" element={<FlatMarkers/>} />
           </Routes>
           <Routes>
@@ -58,9 +61,9 @@ function App() {
           <Routes>
               <Route path="/FlatMarkers_en" element={<FlatMarkers_en/>} />
           </Routes>
-          {/*<Routes>*/}
-          {/*    <Route path="/LiveChat" element={<LiveChat/>} />*/}
-          {/*</Routes111>*/}
+          <Routes>
+              <Route path="/LiveChat" element={<LiveChat/>} />
+          </Routes>
 
 
           <Routes>

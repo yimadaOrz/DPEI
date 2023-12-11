@@ -32,23 +32,25 @@ const FlatMarkers_en = () => {
 
     const [img, setImg] = useState([]);
 
-
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [imagesPerPage, setImagesPerPage] = useState(12);
-        const [totalImages, setTotalImages] = useState(photos.length);
+    const [imagesPerPage, setImagesPerPage] = useState(7);
+    const [totalImages, setTotalImages] = useState(photos.length);
+    // const [currentPhotos, setCurrentPhotos] = useState(17);
 
     const openLightbox = useCallback((event, { photo, index }) => {
-        setCurrentImage(index);
+        const globalIndex = (currentPage - 1) * imagesPerPage + index;
+        setCurrentImage(globalIndex);
         setViewerIsOpen(true);
-    }, []);
+    }, [currentPage, imagesPerPage]);
 
     const closeLightbox = () => {
         setCurrentImage(0);
         setViewerIsOpen(false);
     };
+
 
 
     //Get current posts
@@ -71,21 +73,39 @@ const FlatMarkers_en = () => {
                 <Gallery
                     photos={currentPhotos}
                     margin={30}
-                    // targetRowHeight = {300}
-                    // columns={3}
-                    limitNodeSearch={3}
+                    limitNodeSearch={4}
                     onClick={openLightbox}
+                    targetRowHeight={300} // 每行图片的目标高度
+
                 />
                 <ModalGateway>
                     {viewerIsOpen ? (
                         <Modal onClose={closeLightbox}>
                             <Carousel
                                 currentIndex={currentImage}
-                                views={photos.map(x => ({
+                                views={photos.map((x) => ({
                                     ...x,
                                     srcset: x.srcSet,
-                                    caption: x.title
+                                    caption: x.title,
                                 }))}
+                                // You can add styles to adjust the size of the lightbox images
+                                styles={{
+                                    container: (base) => ({
+                                        ...base,
+                                        // Example styles, adjust as needed
+                                        margin: 'auto',
+
+                                        width: '60%', // Adjust the width of the lightbox container
+                                        height: '70%', // Adjust the height of the lightbox container
+                                    }),
+                                    view: (base) => ({
+                                        ...base,
+                                        // Example styles, adjust as needed
+                                        margin: 'auto',
+
+                                        maxHeight: '80%', // Adjust the maximum height of the lightbox image
+                                    }),
+                                }}
                             />
                         </Modal>
                     ) : null}

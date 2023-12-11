@@ -13,17 +13,17 @@ import img11 from './photos/Y776 60X38.jpg';
 import img12 from './photos/Y838 36x30.jpg';
 
     export const photos = [
-      { src: img1, width: 5, height: 4 },
-{ src: img2, width: 5, height: 4 },
-{ src: img3, width: 5, height: 4 },
-{ src: img4, width: 5, height: 4 },
-{ src: img5, width: 5, height: 4 },
-{ src: img6, width: 5, height: 4 },
-{ src: img7, width: 5, height: 4 },
-{ src: img8, width: 5, height: 4 },
-{ src: img9, width: 5, height: 4 },
-{ src: img10, width: 5, height: 4 },
-{ src: img11, width: 5, height: 4 },
-{ src: img12, width: 5, height: 4 }
+      { src: img1, width: 0, height: 0},
+{ src: img2, width: 0, height: 0},
+{ src: img3, width: 0, height: 0},
+{ src: img4, width: 0, height: 0},
+{ src: img5, width: 0, height: 0},
+{ src: img6, width: 0, height: 0},
+{ src: img7, width: 0, height: 0},
+{ src: img8, width: 0, height: 0},
+{ src: img9, width: 0, height: 0},
+{ src: img10, width: 0, height: 0},
+{ src: img11, width: 0, height: 0},
+{ src: img12, width: 0, height: 0}
     ];
   

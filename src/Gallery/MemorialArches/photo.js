@@ -11,12 +11,52 @@ import img7 from './photos/Y554 42x32.jpg';
     const maxHeight = 400;
 
     export const photos = [
-      { src: img1, width: 5, height: 4 },
-{ src: img2, width: 5, height: 4 },
-{ src: img3, width: 5, height: 4 },
-{ src: img4, width: 5, height: 4 },
-{ src: img5, width: 5, height: 4 },
-{ src: img6, width: 5, height: 4 },
-{ src: img7, width: 5, height: 4 }
+      { src: img1, width: 0, height: 0},
+{ src: img2, width: 0, height: 0},
+{ src: img3, width: 0, height: 0},
+{ src: img4, width: 0, height: 0},
+{ src: img5, width: 0, height: 0},
+{ src: img6, width: 0, height: 0},
+{ src: img7, width: 0, height: 0}
     ];
-  
+    const calculateDimensions = (img, index) => {
+        const aspectRatio = img.naturalWidth / img.naturalHeight;
+
+        // 在保持纵横比的同时计算新的宽度和高度
+        if (img.naturalWidth > img.naturalHeight) {
+            photos[index].width = Math.min(maxWidth, img.naturalWidth);
+            photos[index].height = photos[index].width / aspectRatio;
+        } else {
+            photos[index].height = Math.min(maxHeight, img.naturalHeight);
+            photos[index].width = photos[index].height * aspectRatio;
+        }
+
+        // 在最后一页调整尺寸
+        const imagesOnLastRow = (photos.length - index - 1) % 3; // 计算最后一行的图片数量
+        if (imagesOnLastRow < 3) { // 如果最后一行图片少于3张，则调整尺寸
+            const maxLastPageWidth = maxWidth / 3; // 设置为每行1/3的宽度
+            const maxLastPageHeight = maxHeight; // 保持最大高度不变
+            photos[index].width = Math.min(photos[index].width, maxLastPageWidth);
+            photos[index].height = Math.min(photos[index].height, maxLastPageHeight);
+        }
+
+        // 确保尺寸在指定的限制内
+        photos[index].width = Math.min(photos[index].width, maxWidth);
+        photos[index].height = Math.min(photos[index].height, maxHeight);
+
+        //console.log(photos[index].height)
+        //console.log(photos[index].width);
+    };
+
+
+
+    // 计算每个图像新宽度和高度
+    photos.forEach((photo, index) => {
+        const img = new Image();
+        img.src = photo.src;
+
+        img.onload = () => {
+            calculateDimensions(img, index);
+            //console.log(`Dimensions calculated for image ${index + 1}`);
+        };
+    });

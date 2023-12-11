@@ -29,25 +29,27 @@ const SingleMonument = () => {
   // });
   // },[])
 
-  const [img, setImg] = useState([]);
+    const [img, setImg] = useState([]);
 
-  const [currentImage, setCurrentImage] = useState(0);
-  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+    const [currentImage, setCurrentImage] = useState(0);
+    const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const [currentPage, setCurrentPage] = useState(1);
-  const [imagesPerPage, setImagesPerPage] = useState(12);
-      const [totalImages, setTotalImages] = useState(photos.length);
-  // const [currentPhotos, setCurrentPhotos] = useState(17);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [imagesPerPage, setImagesPerPage] = useState(6);
+    const [totalImages, setTotalImages] = useState(photos.length);
+    // const [currentPhotos, setCurrentPhotos] = useState(17);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
+    const openLightbox = useCallback((event, { photo, index }) => {
+        const globalIndex = (currentPage - 1) * imagesPerPage + index;
+        setCurrentImage(globalIndex);
+        setViewerIsOpen(true);
+    }, [currentPage, imagesPerPage]);
 
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+    const closeLightbox = () => {
+        setCurrentImage(0);
+        setViewerIsOpen(false);
+    };
+
 
 
 
@@ -68,40 +70,59 @@ const SingleMonument = () => {
         <h1>{t("navbar.item2.subitem3")}</h1>
 
         <div className="gallery_container grow img">
-     <Gallery
-      photos={currentPhotos}
-      margin={30}
-      limitNodeSearch={3}
-      onClick={openLightbox} 
-     />
-     <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
+            <Gallery
+                photos={currentPhotos}
+                margin={30}
+                limitNodeSearch={4}
+                onClick={openLightbox}
+                targetRowHeight={400} // 每行图片的目标高度
+
             />
-          </Modal>
-        ) : null}
-      </ModalGateway>
-      </div>
+            <ModalGateway>
+                {viewerIsOpen ? (
+                    <Modal onClose={closeLightbox}>
+                        <Carousel
+                            currentIndex={currentImage}
+                            views={photos.map((x) => ({
+                                ...x,
+                                srcset: x.srcSet,
+                                caption: x.title,
+                            }))}
+                            // You can add styles to adjust the size of the lightbox images
+                            styles={{
+                                container: (base) => ({
+                                    ...base,
+                                    // Example styles, adjust as needed
+                                    margin: 'auto',
 
-      <Paginations 
-        postsPerPage={imagesPerPage} 
-        totalPosts = {totalImages}
-        paginate ={paginate}
-        currentPage = {currentPage}
-      />         
+                                    width: '60%', // Adjust the width of the lightbox container
+                                    height: '70%', // Adjust the height of the lightbox container
+                                }),
+                                view: (base) => ({
+                                    ...base,
+                                    // Example styles, adjust as needed
+                                    margin: 'auto',
 
-      <Footer/>
-   </div>
-);
-    }
+                                    maxHeight: '80%', // Adjust the maximum height of the lightbox image
+                                }),
+                            }}
+                        />
+                    </Modal>
+                ) : null}
+            </ModalGateway>
+        </div>
 
+        <Paginations
+            postsPerPage={imagesPerPage}
+            totalPosts = {totalImages}
+            paginate ={paginate}
+            currentPage = {currentPage}
+        />
+
+        <Footer/>
+    </div>
+    );
+}
 
 
 export default SingleMonument;
