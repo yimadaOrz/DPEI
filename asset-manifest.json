@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DPEI/static/css/main.d58620b4.css",
-    "main.js": "/DPEI/static/js/main.1b56b804.js",
+    "main.js": "/DPEI/static/js/main.ff580012.js",
     "static/js/787.ac89ed12.chunk.js": "/DPEI/static/js/787.ac89ed12.chunk.js",
     "static/media/Y1395 42x38.jpg": "/DPEI/static/media/Y1395 42x38.187b9f687bf2c667da01.jpg",
     "static/media/Y1615 78x34.jpg": "/DPEI/static/media/Y1615 78x34.8f985663ecc6ade81f2d.jpg",
@@ -369,11 +369,11 @@
     "static/media/wechat.svg": "/DPEI/static/media/wechat.135eedae4e65737d4fe61ccc8097eeea.svg",
     "index.html": "/DPEI/index.html",
     "main.d58620b4.css.map": "/DPEI/static/css/main.d58620b4.css.map",
-    "main.1b56b804.js.map": "/DPEI/static/js/main.1b56b804.js.map",
+    "main.ff580012.js.map": "/DPEI/static/js/main.ff580012.js.map",
     "787.ac89ed12.chunk.js.map": "/DPEI/static/js/787.ac89ed12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d58620b4.css",
-    "static/js/main.1b56b804.js"
+    "static/js/main.ff580012.js"
   ]
 }
