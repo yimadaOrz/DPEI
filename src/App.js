@@ -1,5 +1,5 @@
 import './App.css';
-import React from "react";
+import React, {useEffect} from "react";
 import LiveChat from './LiveChat/LiveChat';
 import Header from './Header/Header';
 import HomePage from './HomePgae/HomePage';
@@ -39,6 +39,22 @@ import {
 } from "react-router-dom";
 
 function App() {
+    useEffect(() => {
+        // 设置标题
+        document.title = 'DPEI';
+
+        // 设置图标
+        const icon = document.createElement('link');
+        icon.rel = 'icon';
+        icon.type = 'image/jpg';
+        icon.href = './src/logo.jpg';
+        document.head.appendChild(icon);
+
+        // 在组件卸载时清理
+        return () => {
+            document.head.removeChild(icon);
+        };
+    }, []);
   return (
     <div >
       <Provider store = {store}>
@@ -61,9 +77,9 @@ function App() {
           <Routes>
               <Route path="/FlatMarkers_en" element={<FlatMarkers_en/>} />
           </Routes>
-          <Routes>
-              <Route path="/LiveChat" element={<LiveChat/>} />
-          </Routes>
+          {/*<Routes>*/}
+          {/*    <Route path="/LiveChat" element={<LiveChat/>} />*/}
+          {/*</Routes>*/}
 
 
           <Routes>
