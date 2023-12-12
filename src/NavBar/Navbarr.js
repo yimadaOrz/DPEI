@@ -51,7 +51,7 @@ const Navbarr = (props) => {
                     {/*<Navbar.Collapse id="basic-navbar-nav">*/}
                     {/*    <Nav className='m-auto '>*/}
 
-                            <Nav.Link as={NavLink} to='/DPEI' style={{
+                            <Nav.Link as={NavLink} to='/' style={{
                                 fontSize: "20px",
                                 marginLeft: '50px',
                                 letterSpacing: "2px"

@@ -60,80 +60,43 @@ function App() {
       <Provider store = {store}>
       <BrowserRouter>
           <Routes>
-            <Route path="/DPEI" element={<HomePage/>} />
-          </Routes>
-          <Routes>
-              <Route path="/i18n" element={<i18n/>} />
-          </Routes>
-          <Routes>
+            <Route path="/" element={<HomePage/>} />
+
             <Route path="/FlatMarkers" element={<FlatMarkers/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/Urn" element={<Urn/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/MemorialArches" element={<MemorialArches/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/FlatMarkers_en" element={<FlatMarkers_en/>} />
-          </Routes>
-          {/*<Routes>*/}
-          {/*    <Route path="/LiveChat" element={<LiveChat/>} />*/}
-          {/*</Routes>*/}
+              <Route path="/FamilyMonument" element={<FamilyMonument/>} />
 
-
-          <Routes>
-            <Route path="/FamilyMonument" element={<FamilyMonument/>} />
-          </Routes>
-          <Routes>
               <Route path="/SingleMonument" element={<SingleMonument/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/SingleMonument_en" element={<SingleMonument_en/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/SlantMarkers" element={<SlantMarkers/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/SlantMarkers_en" element={<SlantMarkers_en/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/DoubleMonument" element={<DoubleMonument/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/ShapedMonument" element={<ShapedMonument/>} />
-          </Routes>
-          <Routes>
+
               <Route path="/DoubleMonument_en" element={<DoubleMonument_en/>} />
-          </Routes>
-          <Routes>
+
             <Route path="/About_us" element={<AboutUs/>} /> 
-          </Routes>
 
-          <Routes>
             <Route path="/ProductAndService" element={<ProductAndService/>} /> 
-          </Routes>
 
-          <Routes>
             <Route path="/HowToOrder" element={<HowToOrder/>} /> 
-          </Routes>
-        
-          <Routes>
-            <Route path="/FAQ" element={<FAQ/>} /> 
-          </Routes>
-      
-  
-          <Routes>
-            <Route path="/FAQ_en" element={<FAQ_en/>} /> 
-          </Routes>
-   
-          <Routes>
-            <Route path="/Privacy" element={<Privacy/>} /> 
-          </Routes>
-     
-          {/* Contact Us */}
 
-          <Routes>
+            <Route path="/FAQ" element={<FAQ/>} /> 
+
+            <Route path="/FAQ_en" element={<FAQ_en/>} /> 
+
+            <Route path="/Privacy" element={<Privacy/>} /> 
+
             <Route path="/ContactUs" element={<ContactUs/>} /> 
           </Routes>
 
