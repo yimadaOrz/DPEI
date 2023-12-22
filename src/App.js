@@ -58,7 +58,7 @@ function App() {
   return (
     <div >
       <Provider store = {store}>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/DPEI">
           <Routes>
             <Route path="/" element={<HomePage/>} />
 
