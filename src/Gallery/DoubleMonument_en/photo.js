@@ -24,9 +24,6 @@ import img22 from './photos/SN-1167.jpg';
 import img23 from './photos/SN-1169.jpg';
 import img24 from './photos/SN-1265.jpg';
 
-        const maxWidth = 400;
-    const maxHeight = 400;
-
     export const photos = [
       { src: img1, width: 0, height: 0},
 { src: img2, width: 0, height: 0},
@@ -53,6 +50,8 @@ import img24 from './photos/SN-1265.jpg';
 { src: img23, width: 0, height: 0},
 { src: img24, width: 0, height: 0}
     ];
+    const maxWidth = 400;
+    const maxHeight = 400;
     const calculateDimensions = (img, index) => {
         const aspectRatio = img.naturalWidth / img.naturalHeight;
 
@@ -94,4 +93,3 @@ import img24 from './photos/SN-1265.jpg';
             //console.log(`Dimensions calculated for image ${index + 1}`);
         };
     });
-  

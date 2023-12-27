@@ -38,6 +38,8 @@ const AboutUs = () =>{
                     </h4>
                     <p className='AboutUs_upper_right_text'>{t("AboutUs.item2.item2")}</p>
                     <p className='AboutUs_upper_right_text'>{t("AboutUs.item2.subitem1")}</p>
+                    <p className='AboutUs_upper_right_text'>{t("AboutUs.item2.subitem2")}</p>
+
                 </div>
 
             </div>
