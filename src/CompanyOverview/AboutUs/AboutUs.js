@@ -1,5 +1,5 @@
 import './AboutUs.css';
-import AboutUsImage from './DPEI.png';
+import AboutUsImage from './DPEI.jpg';
 import Navbar from '../../NavBar/Navbarr';
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';

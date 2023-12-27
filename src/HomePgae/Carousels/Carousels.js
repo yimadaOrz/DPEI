@@ -1,18 +1,17 @@
 import React, { useRef, useState } from 'react';
 import './Carousel.css';
 import InfiniteCarousel from 'react-leaf-carousel';
-import img1 from '../Carousels/photos/P1356 48X36.jpg';
-import img2 from '../Carousels/photos/P2317 20X30.JPG';
-import img3 from '../Carousels/photos/Y1030 42x26.jpg';
-import img4 from '../Carousels/photos/Y1196 20x24.jpg';
-import img5 from '../Carousels/photos/Y1224 90x38.jpg';
-import img6 from '../Carousels/photos/Y1235 36x24.jpg';
+import img1 from '../Carousels/photos/SLQ005 78x32.jpg';
+import img2 from '../Carousels/photos/Y296 162x46.jpg';
+import img4 from '../Carousels/photos/Y1224 90x38.jpg';
+import img5 from '../Carousels/photos/Y1371 138x42.jpg';
+import img6 from '../Carousels/photos/Y1431 126x38.jpg';
 import img7 from '../Carousels/photos/Y1616 84x34.jpg';
 import img8 from '../Carousels/photos/Y1617 116x38.jpg';
 import img9 from '../Carousels/photos/Y1720 102x34.jpg';
-import img10 from '../Carousels/photos/Y296 162x46.jpg';
-import img11 from '../Carousels/photos/Y776 60X38.jpg';
-import img12 from '../Carousels/photos/Y838 36x30.jpg';
+import img10 from '../Carousels/photos/Y1730 84x34.jpg';
+import img11 from '../Carousels/photos/Y1775 90x32.jpg';
+// import img12 from '../Carousels/photos/Y838 36x30.jpg';
 
 const DraggableImage = ({ src, className }) => {
     const imageRef = useRef(null);
@@ -50,7 +49,7 @@ const DraggableImage = ({ src, className }) => {
 
 const Carousels = () => {
     return (
-        <div style={{ marginTop: '30px', position: 'relative', overflow: 'hidden' }}>
+        <div className = {'carousel_container'} style={{ marginTop: '30px', position: 'relative', overflow: 'hidden', width: '70%', margin: 'auto', textAlign: 'center' }}>
             <InfiniteCarousel
                 breakpoints={[
                     {
@@ -75,13 +74,12 @@ const Carousels = () => {
                 slidesToScroll={1}
                 slidesToShow={4}
                 scrollOnDevice={true}
-                lazyLoad={true}
+                lazyLoad={false}
                 swipe={true}
                 animationDuration={1500}
             >
                 <DraggableImage src={img1} className="img_size" />
                 <DraggableImage src={img2} className="img_size" />
-                <DraggableImage src={img3} className="img_size" />
                 <DraggableImage src={img4} className="img_size" />
                 <DraggableImage src={img5} className="img_size" />
                 <DraggableImage src={img6} className="img_size" />
@@ -90,7 +88,6 @@ const Carousels = () => {
                 <DraggableImage src={img9} className="img_size" />
                 <DraggableImage src={img10} className="img_size" />
                 <DraggableImage src={img11} className="img_size" />
-                <DraggableImage src={img12} className="img_size" />
             </InfiniteCarousel>
         </div>
     );

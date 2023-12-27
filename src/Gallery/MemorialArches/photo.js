@@ -32,13 +32,13 @@ import img7 from './photos/Y554 42x32.jpg';
         }
 
         // 在最后一页调整尺寸
-        const imagesOnLastRow = (photos.length - index - 1) % 3; // 计算最后一行的图片数量
-        if (imagesOnLastRow < 3) { // 如果最后一行图片少于3张，则调整尺寸
-            const maxLastPageWidth = maxWidth / 3; // 设置为每行1/3的宽度
-            const maxLastPageHeight = maxHeight; // 保持最大高度不变
-            photos[index].width = Math.min(photos[index].width, maxLastPageWidth);
-            photos[index].height = Math.min(photos[index].height, maxLastPageHeight);
-        }
+        // const imagesOnLastRow = (photos.length - index - 1) % 3; // 计算最后一行的图片数量
+        // if (imagesOnLastRow < 3) { // 如果最后一行图片少于3张，则调整尺寸
+        //     const maxLastPageWidth = maxWidth / 3; // 设置为每行1/3的宽度
+        //     const maxLastPageHeight = maxHeight; // 保持最大高度不变
+        //     photos[index].width = Math.min(photos[index].width, maxLastPageWidth);
+        //     photos[index].height = Math.min(photos[index].height, maxLastPageHeight);
+        // }
 
         // 确保尺寸在指定的限制内
         photos[index].width = Math.min(photos[index].width, maxWidth);

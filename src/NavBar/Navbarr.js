@@ -149,33 +149,67 @@ const Navbarr = (props) => {
 
                                 <div>
 
+
                                     <NavDropdown.Item href="#action/3.1"
                                                       style={{fontSize: "20px", letterSpacing: "0px"}} as={NavLink}
                                                       to='/About_us'>{t("navbar.item5.subitem1")}</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.1"
-                                                      style={{fontSize: "20px", letterSpacing: "0px"}} as={NavLink}
-                                                      to='/ProductAndService'>{t("navbar.item5.subitem2")}</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.2"
-                                                      style={{fontSize: "20px", letterSpacing: "0px"}} as={NavLink}
-                                                      to='/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>
+                                    {
+                                        i18n.language !== "en" && (
+                                            <NavDropdown.Item
+                                                href="#action/3.1"
+                                                style={{fontSize: "20px", letterSpacing: "0px"}}
+                                                as={NavLink}
+                                                to='/ProductAndService'
+                                            >
+                                                {t("navbar.item5.subitem2")}
+                                            </NavDropdown.Item>
+                                        )
+                                    }
+                                    {
+                                        i18n.language !== "en" && (
+                                            <NavDropdown.Item
+                                                href="#action/3.2"
+                                                style={{fontSize: "20px", letterSpacing: "0px"}}
+                                                as={NavLink}
+                                                to='/HowToOrder'
+                                            >
+                                                {t("navbar.item5.subitem3")}
+                                            </NavDropdown.Item>
+                                        )
+                                    }
+                                    {/*<NavDropdown.Item href="#action/3.2"*/}
+                                    {/*                  style={{fontSize: "20px", letterSpacing: "0px"}} as={NavLink}*/}
+                                    {/*                  to='/HowToOrder'>{t("navbar.item5.subitem3")}</NavDropdown.Item>*/}
                                     {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
                                     {/* <NavDropdown.Item href="#action/3.3" style={{fontSize:"20px"}} as={NavLink} to= '/FAQ' state={{ isclicked }}>{t("navbar.item5.subitem4")}</NavDropdown.Item> */}
                                     {
-
-                                        i18n.language == "en" ? <NavDropdown.Item href="#action/3.3" style={{
-                                                fontSize: "20px",
-                                                letterSpacing: "0px"
-                                            }} as={NavLink} to='/FAQ_en'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
-                                            : <NavDropdown.Item href="#action/3.3"
-                                                                style={{fontSize: "20px", letterSpacing: "0px"}}
-                                                                as={NavLink}
-                                                                to='/FAQ'>{t("navbar.item5.subitem4")}</NavDropdown.Item>
+                                        i18n.language !== "en" && (
+                                            <NavDropdown.Item
+                                                href="#action/3.3"
+                                                style={{fontSize: "20px", letterSpacing: "0px"}}
+                                                as={NavLink}
+                                                to='/FAQ'
+                                            >
+                                                {t("navbar.item5.subitem4")}
+                                            </NavDropdown.Item>
+                                        )
                                     }
 
-
-                                    <NavDropdown.Item href="#action/3.3"
-                                                      style={{fontSize: "20px", letterSpacing: "2px"}} as={NavLink}
-                                                      to='/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>
+                                    {
+                                        i18n.language !== "en" && (
+                                            <NavDropdown.Item
+                                                href="#action/3.3"
+                                                style={{fontSize: "20px", letterSpacing: "0px"}}
+                                                as={NavLink}
+                                                to='/Privacy'
+                                            >
+                                                {t("navbar.item5.subitem5")}
+                                            </NavDropdown.Item>
+                                        )
+                                    }
+                                    {/*<NavDropdown.Item href="#action/3.3"*/}
+                                    {/*                  style={{fontSize: "20px", letterSpacing: "2px"}} as={NavLink}*/}
+                                    {/*                  to='/Privacy'>{t("navbar.item5.subitem5")}</NavDropdown.Item>*/}
 
                                 </div>
 

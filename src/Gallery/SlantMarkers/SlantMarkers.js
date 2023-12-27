@@ -79,38 +79,41 @@ const SlantMarkers = () => {
       targetRowHeight={400} // 每行图片的目标高度
 
      />
-     <ModalGateway>
-        {viewerIsOpen ? (
-            <Modal onClose={closeLightbox}>
-                <Carousel
-                    currentIndex={currentImage}
-                    views={photos.map((x) => ({
-                        ...x,
-                        srcset: x.srcSet,
-                        caption: x.title,
-                    }))}
-                    // You can add styles to adjust the size of the lightbox images
-                    styles={{
-                        container: (base) => ({
-                            ...base,
-                            // Example styles, adjust as needed
-                            margin: 'auto',
+            <ModalGateway>
+                {viewerIsOpen ? (
+                    <Modal onClose={closeLightbox}>
+                        <Carousel
+                            currentIndex={currentImage}
+                            views={photos.map((x) => ({
+                                ...x,
+                                srcset: x.srcSet,
+                                caption: x.title,
+                            }))}
+                            // You can add styles to adjust the size of the lightbox images
+                            styles={{
+                                container: (base) => ({
+                                    ...base,
+                                    // Example styles, adjust as needed
+                                    // margin: 'auto',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    //
+                                    // width: '60%', // Adjust the width of the lightbox container
+                                    // height: '100%', // Adjust the height of the lightbox container
+                                }),
+                                view: (base) => ({
+                                    ...base,
+                                    // Example styles, adjust as needed
+                                    margin: 'auto',
+                                    maxWidth: '80%',
 
-                            width: '60%', // Adjust the width of the lightbox container
-                            height: '70%', // Adjust the height of the lightbox container
-                        }),
-                        view: (base) => ({
-                            ...base,
-                            // Example styles, adjust as needed
-                            margin: 'auto',
-
-                            maxHeight: '80%', // Adjust the maximum height of the lightbox image
-                        }),
-                    }}
-                />
-            </Modal>
-        ) : null}
-      </ModalGateway>
+                                    maxHeight: '80%', // Adjust the maximum height of the lightbox image
+                                }),
+                            }}
+                        />
+                    </Modal>
+                ) : null}
+            </ModalGateway>
       </div>
 
       <Paginations 

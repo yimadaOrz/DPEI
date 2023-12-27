@@ -93,15 +93,18 @@ const FamilyMonument = () => {
                                 container: (base) => ({
                                     ...base,
                                     // Example styles, adjust as needed
-                                    margin: 'auto',
-
-                                    width: '60%', // Adjust the width of the lightbox container
-                                    height: '70%', // Adjust the height of the lightbox container
+                                    // margin: 'auto',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    //
+                                    // width: '60%', // Adjust the width of the lightbox container
+                                    // height: '100%', // Adjust the height of the lightbox container
                                 }),
                                 view: (base) => ({
                                     ...base,
                                     // Example styles, adjust as needed
                                     margin: 'auto',
+                                    maxWidth: '80%',
 
                                     maxHeight: '80%', // Adjust the maximum height of the lightbox image
                                 }),

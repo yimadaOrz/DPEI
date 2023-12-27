@@ -32,11 +32,8 @@ import FamilyMonument from './Gallery/FamilyMonument/FamilyMonument';
 
 import i18n from './text/i18n';
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
     useEffect(() => {
@@ -46,7 +43,7 @@ function App() {
         // 设置图标
         const icon = document.createElement('link');
         icon.rel = 'icon';
-        icon.type = 'image/jpg';
+        icon.type = 'image/jpeg';
         icon.href = './src/logo.jpg';
         document.head.appendChild(icon);
 
@@ -58,7 +55,7 @@ function App() {
   return (
     <div >
       <Provider store = {store}>
-      <BrowserRouter basename="/">
+      <Router>
           <Routes>
             <Route path="/" element={<HomePage/>} />
 
@@ -101,7 +98,7 @@ function App() {
           </Routes>
 
 
-       </BrowserRouter>
+       </Router>
        </Provider>
     </div>
   );
