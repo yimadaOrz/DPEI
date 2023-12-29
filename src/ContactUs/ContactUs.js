@@ -50,10 +50,13 @@ const ContactUs = () => {
                                 <GeoAltFill className='address'/>
                                 <h5 className='h5'>{t("ContactUs.item2.subitem2")}</h5>
                             </div>
-                                <p className='p'>5008 4th Ave</p>
-                                <p className='p'>Brooklyn NY, 11220</p>
-                         
-                
+                            <a href="https://www.google.com/maps/place/New+York+Dragon+Peace+Enterprise+Inc./@40.646302,-74.0128477,21z/data=!4m12!1m5!3m4!2zNDDCsDM4JzQ3LjEiTiA3NMKwMDAnNDYuNiJX!8m2!3d40.6464215!4d-74.0129448!3m5!1s0x89c25ab14f74fdfd:0xba84a52860a25f86!8m2!3d40.6464203!4d-74.0129509!16s%2Fg%2F11bx8ht08z?entry=ttu" className='remove_a_tag_css' target="_blank" rel="noopener noreferrer">
+                                <p>5008 4th Ave</p>
+                            </a>
+                            <a href="https://www.google.com/maps/place/New+York+Dragon+Peace+Enterprise+Inc./@40.646302,-74.0128477,21z/data=!4m12!1m5!3m4!2zNDDCsDM4JzQ3LjEiTiA3NMKwMDAnNDYuNiJX!8m2!3d40.6464215!4d-74.0129448!3m5!1s0x89c25ab14f74fdfd:0xba84a52860a25f86!8m2!3d40.6464203!4d-74.0129509!16s%2Fg%2F11bx8ht08z?entry=ttu" className='remove_a_tag_css' target="_blank" rel="noopener noreferrer">
+
+                                <p>Brooklyn NY, 11220</p>
+                            </a>
                             <div className='right_firstRow'>
                                 <EnvelopeFill className='email'/>
                                 <h5 className='h5'>{t("ContactUs.item2.subitem3")}</h5>

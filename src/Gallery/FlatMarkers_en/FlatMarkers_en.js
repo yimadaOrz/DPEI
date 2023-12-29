@@ -36,7 +36,7 @@ const FlatMarkers_en = () => {
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [imagesPerPage, setImagesPerPage] = useState(7);
+    const [imagesPerPage, setImagesPerPage] = useState(6);
     const [totalImages, setTotalImages] = useState(photos.length);
     // const [currentPhotos, setCurrentPhotos] = useState(17);
 
@@ -50,7 +50,6 @@ const FlatMarkers_en = () => {
         setCurrentImage(0);
         setViewerIsOpen(false);
     };
-
 
 
     //Get current posts
@@ -75,7 +74,7 @@ const FlatMarkers_en = () => {
                     margin={30}
                     limitNodeSearch={4}
                     onClick={openLightbox}
-                    targetRowHeight={300} // 每行图片的目标高度
+                    targetRowHeight={400} // 每行图片的目标高度
 
                 />
                 <ModalGateway>
@@ -126,6 +125,7 @@ const FlatMarkers_en = () => {
         </div>
     );
 }
+
 
 
 

@@ -11,6 +11,8 @@ const HomePage = () =>{
        <div>
         <Header/>
          <Navbarr/>
+           <br/>
+           <br/>
          <Carousels/>
          <Information/>
          <LiveChat/>

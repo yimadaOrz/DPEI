@@ -15,8 +15,8 @@ const containerStyle = {
 // };
 //40.64672669984767, -74.01309500067525
 const center = {
-  lat: 40.64672669984767,
-  lng:-74.01309500067525
+  lat: 40.646418921761104,
+  lng: -74.01294206025554
 };
 
 export default function Map() {
@@ -36,7 +36,9 @@ export default function Map() {
   const onUnmount = React.useCallback(function callback(map) {
     setMap(null)
   }, [])
-
+  const handleInfoWindowClick = () => {
+    window.open(`https://www.google.com/maps/place/${center.lat},${center.lng}`, '_blank');
+  };
   return isLoaded ? (
       <GoogleMap
         mapContainerStyle={containerStyle}
@@ -50,9 +52,14 @@ export default function Map() {
           <MarkerF
           position={center}
          >
-           <InfoWindowF position={center}>
-          <p>5008 4th Ave, Brooklyn, NY 11220</p>
-       
+            <InfoWindowF position={center} onClick={handleInfoWindowClick}>
+              {/*<p>5008 4th Ave, Brooklyn, NY 11220</p>*/}
+          {/*<p>5008 4th Ave, Brooklyn, NY 11220</p>*/}
+              <a href={`https://www.google.com/maps/place/${center.lat},${center.lng}`} target="_blank" rel="noopener noreferrer">
+                New York Dragon Peace Enterprise Inc.
+                <br/>
+                5008 4th Ave, Brooklyn, NY 11220
+              </a>
            </InfoWindowF>
           </MarkerF>
         </>

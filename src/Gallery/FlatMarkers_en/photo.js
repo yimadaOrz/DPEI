@@ -77,7 +77,7 @@ import img37 from './photos/SN-1074.jpg';
 { src: img34, width: 0, height: 0},
 { src: img35, width: 0, height: 0},
 { src: img36, width: 0, height: 0},
-{ src: img37, width: 0, height: 0}
+// { src: img37, width: 0, height: 0}
     ];
 
     const calculateDimensions = (img, index) => {

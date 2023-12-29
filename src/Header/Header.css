@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 50px;
 }
 
 .header_title{
@@ -37,7 +37,9 @@
 
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom: 0; /* 设置为零 */
+
 }
 
 .header_inner_right_container{
@@ -45,7 +47,9 @@
 
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom: 0; /* 设置为零 */
+
 }
 
 
@@ -64,7 +68,7 @@
 
 
     .header_inner_left_container{
-        all:unset,
+        all:unset
     }
     
     .header_inner_right_container{
