@@ -52,98 +52,56 @@ import img50 from './photos/VC-017.jpg';
 import img51 from './photos/YL2037.jpg';
 
     export const photos = [
-      { src: img1, width: 0, height: 0},
-{ src: img2, width: 0, height: 0},
-{ src: img3, width: 0, height: 0},
-{ src: img4, width: 0, height: 0},
-{ src: img5, width: 0, height: 0},
-{ src: img6, width: 0, height: 0},
-{ src: img7, width: 0, height: 0},
-{ src: img8, width: 0, height: 0},
-{ src: img9, width: 0, height: 0},
-{ src: img10, width: 0, height: 0},
-{ src: img11, width: 0, height: 0},
-{ src: img12, width: 0, height: 0},
-{ src: img13, width: 0, height: 0},
-{ src: img14, width: 0, height: 0},
-{ src: img15, width: 0, height: 0},
-{ src: img16, width: 0, height: 0},
-{ src: img17, width: 0, height: 0},
-{ src: img18, width: 0, height: 0},
-{ src: img19, width: 0, height: 0},
-{ src: img20, width: 0, height: 0},
-{ src: img21, width: 0, height: 0},
-{ src: img22, width: 0, height: 0},
-{ src: img23, width: 0, height: 0},
-{ src: img24, width: 0, height: 0},
-{ src: img25, width: 0, height: 0},
-{ src: img26, width: 0, height: 0},
-{ src: img27, width: 0, height: 0},
-{ src: img28, width: 0, height: 0},
-{ src: img29, width: 0, height: 0},
-{ src: img30, width: 0, height: 0},
-{ src: img31, width: 0, height: 0},
-{ src: img32, width: 0, height: 0},
-{ src: img33, width: 0, height: 0},
-{ src: img34, width: 0, height: 0},
-{ src: img35, width: 0, height: 0},
-{ src: img36, width: 0, height: 0},
-{ src: img37, width: 0, height: 0},
-{ src: img38, width: 0, height: 0},
-{ src: img39, width: 0, height: 0},
-{ src: img40, width: 0, height: 0},
-{ src: img41, width: 0, height: 0},
-{ src: img42, width: 0, height: 0},
-{ src: img43, width: 0, height: 0},
-{ src: img44, width: 0, height: 0},
-{ src: img45, width: 0, height: 0},
-{ src: img46, width: 0, height: 0},
-{ src: img47, width: 0, height: 0},
-{ src: img48, width: 0, height: 0},
-{ src: img49, width: 0, height: 0},
-{ src: img50, width: 0, height: 0},
-{ src: img51, width: 0, height: 0}
+      { src: img1, width: 750, height: 1188 },
+{ src: img2, width: 779, height: 1188 },
+{ src: img3, width: 734, height: 1188 },
+{ src: img4, width: 2700, height: 3516 },
+{ src: img5, width: 810, height: 1188 },
+{ src: img6, width: 2622, height: 3960 },
+{ src: img7, width: 2700, height: 3960 },
+{ src: img8, width: 810, height: 1164 },
+{ src: img9, width: 810, height: 1188 },
+{ src: img10, width: 810, height: 1188 },
+{ src: img11, width: 810, height: 1136 },
+{ src: img12, width: 3861, height: 5940 },
+{ src: img13, width: 1800, height: 2820 },
+{ src: img14, width: 3882, height: 5940 },
+{ src: img15, width: 4080, height: 5940 },
+{ src: img16, width: 1800, height: 2609 },
+{ src: img17, width: 4218, height: 5940 },
+{ src: img18, width: 2000, height: 2888 },
+{ src: img19, width: 3786, height: 5940 },
+{ src: img20, width: 1500, height: 2218 },
+{ src: img21, width: 4308, height: 6066 },
+{ src: img22, width: 2000, height: 2263 },
+{ src: img23, width: 4185, height: 5940 },
+{ src: img24, width: 810, height: 1188 },
+{ src: img25, width: 810, height: 1133 },
+{ src: img26, width: 791, height: 1188 },
+{ src: img27, width: 810, height: 1151 },
+{ src: img28, width: 2200, height: 3400 },
+{ src: img29, width: 810, height: 1188 },
+{ src: img30, width: 810, height: 1188 },
+{ src: img31, width: 2000, height: 2765 },
+{ src: img32, width: 779, height: 1242 },
+{ src: img33, width: 810, height: 1203 },
+{ src: img34, width: 810, height: 1215 },
+{ src: img35, width: 2700, height: 4050 },
+{ src: img36, width: 2700, height: 3780 },
+{ src: img37, width: 810, height: 1215 },
+{ src: img38, width: 2454, height: 3960 },
+{ src: img39, width: 2700, height: 4050 },
+{ src: img40, width: 2700, height: 3960 },
+{ src: img41, width: 810, height: 1296 },
+{ src: img42, width: 2700, height: 4050 },
+{ src: img43, width: 810, height: 1215 },
+{ src: img44, width: 2700, height: 3960 },
+{ src: img45, width: 2700, height: 3960 },
+{ src: img46, width: 2454, height: 3960 },
+{ src: img47, width: 2700, height: 3972 },
+{ src: img48, width: 4221, height: 5438 },
+{ src: img49, width: 2700, height: 3960 },
+{ src: img50, width: 4290, height: 5634 },
+{ src: img51, width: 2700, height: 3882 }
     ];
-    const maxWidth = 400;
-    const maxHeight = 400;
-    const calculateDimensions = (img, index) => {
-        const aspectRatio = img.naturalWidth / img.naturalHeight;
-
-        // 在保持纵横比的同时计算新的宽度和高度
-        if (img.naturalWidth > img.naturalHeight) {
-            photos[index].width = Math.min(maxWidth, img.naturalWidth);
-            photos[index].height = photos[index].width / aspectRatio;
-        } else {
-            photos[index].height = Math.min(maxHeight, img.naturalHeight);
-            photos[index].width = photos[index].height * aspectRatio;
-        }
-
-        // 在最后一页调整尺寸
-        // const imagesOnLastRow = (photos.length - index - 1) % 3; // 计算最后一行的图片数量
-        // if (imagesOnLastRow < 3) { // 如果最后一行图片少于3张，则调整尺寸
-        //     const maxLastPageWidth = maxWidth / 3; // 设置为每行1/3的宽度
-        //     const maxLastPageHeight = maxHeight; // 保持最大高度不变
-        //     photos[index].width = Math.min(photos[index].width, maxLastPageWidth);
-        //     photos[index].height = Math.min(photos[index].height, maxLastPageHeight);
-        // }
-
-        // 确保尺寸在指定的限制内
-        photos[index].width = Math.min(photos[index].width, maxWidth);
-        photos[index].height = Math.min(photos[index].height, maxHeight);
-
-        //console.log(photos[index].height)
-        //console.log(photos[index].width);
-    };
-
-
-
-    // 计算每个图像新宽度和高度
-    photos.forEach((photo, index) => {
-        const img = new Image();
-        img.src = photo.src;
-
-        img.onload = () => {
-            calculateDimensions(img, index);
-            //console.log(`Dimensions calculated for image ${index + 1}`);
-        };
-    });
+  

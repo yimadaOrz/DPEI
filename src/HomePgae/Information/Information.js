@@ -88,6 +88,7 @@ const Information = () =>{
            
  
               <table className='table_container'>
+                  <tbody>
                 <tr >
                   <td><p style={{fontSize:"24px",letterSpacing:'0px'}} >{t("information.item2.subitem1")}</p></td>
                   <td><p style={{marginLeft:"30px"}}>10:00AM – 6:00PM</p></td>
@@ -116,7 +117,7 @@ const Information = () =>{
                   <td><p style={{fontSize:"24px",letterSpacing:'0px'}}>{t("information.item2.subitem7")}</p></td>
                   <td><p style={{marginLeft:"30px"}}>10:00AM – 5:00PM</p></td>
                 </tr>
-                
+                  </tbody>
               </table>
 
               {/* <div className='monday_wrapper'>

@@ -27,77 +27,33 @@ import img25 from './photos/S18-YBS.jpg';
 import img26 from './photos/S26-JHH.jpg';
 import img27 from './photos/ST1-1-MHN.jpg';
 
-    const maxWidth = 400;
-    const maxHeight = 450;
     export const photos = [
-        { src: img1, width: 0, height: 0},
-        { src: img2, width: 0, height: 0},
-        { src: img3, width: 0, height: 0},
-        { src: img4, width: 0, height: 0},
-        { src: img5, width: 0, height: 0},
-        { src: img6, width: 0, height: 0},
-        { src: img7, width: 0, height: 0},
-        { src: img8, width: 0, height: 0},
-        { src: img9, width: 0, height: 0},
-        { src: img10, width: 0, height: 0},
-        { src: img11, width: 0, height: 0},
-        { src: img12, width: 0, height: 0},
-        { src: img13, width: 0, height: 0},
-        { src: img14, width: 0, height: 0},
-        { src: img15, width: 0, height: 0},
-        { src: img16, width: 0, height: 0},
-        { src: img17, width: 0, height: 0},
-        { src: img18, width: 0, height: 0},
-        { src: img19, width: 0, height: 0},
-        { src: img20, width: 0, height: 0},
-        { src: img21, width: 0, height: 0},
-        { src: img22, width: 0, height: 0},
-        { src: img23, width: 0, height: 0},
-        { src: img24, width: 0, height: 0},
-        { src: img25, width: 0, height: 0},
-        { src: img26, width: 0, height: 0},
-        { src: img27, width: 0, height: 0},
-
+      { src: img1, width: 900, height: 1320 },
+{ src: img2, width: 900, height: 1320 },
+{ src: img3, width: 900, height: 1320 },
+{ src: img4, width: 900, height: 1320 },
+{ src: img5, width: 900, height: 1320 },
+{ src: img6, width: 900, height: 1320 },
+{ src: img7, width: 900, height: 1320 },
+{ src: img8, width: 900, height: 1320 },
+{ src: img9, width: 900, height: 1320 },
+{ src: img10, width: 900, height: 1320 },
+{ src: img11, width: 900, height: 1320 },
+{ src: img12, width: 900, height: 1320 },
+{ src: img13, width: 900, height: 1320 },
+{ src: img14, width: 900, height: 1320 },
+{ src: img15, width: 900, height: 1320 },
+{ src: img16, width: 900, height: 1320 },
+{ src: img17, width: 900, height: 1320 },
+{ src: img18, width: 900, height: 1320 },
+{ src: img19, width: 900, height: 1320 },
+{ src: img20, width: 900, height: 1320 },
+{ src: img21, width: 900, height: 1320 },
+{ src: img22, width: 900, height: 1320 },
+{ src: img23, width: 900, height: 1320 },
+{ src: img24, width: 900, height: 1320 },
+{ src: img25, width: 900, height: 1320 },
+{ src: img26, width: 900, height: 1320 },
+{ src: img27, width: 900, height: 1320 }
     ];
-
-    const calculateDimensions = (img, index) => {
-        const aspectRatio = img.naturalWidth / img.naturalHeight;
-
-        // 在保持纵横比的同时计算新的宽度和高度
-        if (img.naturalWidth > img.naturalHeight) {
-            photos[index].width = Math.min(maxWidth, img.naturalWidth);
-            photos[index].height = photos[index].width / aspectRatio;
-        } else {
-            photos[index].height = Math.min(maxHeight, img.naturalHeight);
-            photos[index].width = photos[index].height * aspectRatio;
-        }
-
-        // 在最后一页调整尺寸
-        // const imagesOnLastRow = (photos.length - index - 1) % 3; // 计算最后一行的图片数量
-        // if (imagesOnLastRow < 3) { // 如果最后一行图片少于3张，则调整尺寸
-        //     const maxLastPageWidth = maxWidth / 3; // 设置为每行1/3的宽度
-        //     const maxLastPageHeight = maxHeight; // 保持最大高度不变
-        //     photos[index].width = Math.min(photos[index].width, maxLastPageWidth);
-        //     photos[index].height = Math.min(photos[index].height, maxLastPageHeight);
-        // }
-
-        // 确保尺寸在指定的限制内
-        photos[index].width = Math.min(photos[index].width, maxWidth);
-        photos[index].height = Math.min(photos[index].height, maxHeight);
-
-        ////console.log(photos[index].height)
-        //console.log(photos[index].width);
-    };
-
-
-
-    // 计算每个图像新宽度和高度
-    photos.forEach((photo, index) => {
-        const img = new Image();
-        img.src = photo.src;
-
-        img.onload = () => {
-            calculateDimensions(img, index);
-            //console.log(`Dimensions calculated for image ${index + 1}`);
-        };
-    });
+  
