@@ -1,0 +1,2 @@
+.grow img{transition:1s ease}.grow img:hover{-webkit-transform:scale(1.2);transform:scale(1.2);transition:.4s ease}@media screen and (min-width:768px){.gallery_container{margin:auto;padding:10px;text-align:center;width:85%}.gallery_container img{height:auto;max-width:100%;min-width:100px}}@media screen and (min-width:1200px){.gallery_container{margin:auto;padding:10px;width:70%}}@media screen and (min-width:1750px){.gallery_container{margin:auto;padding:10px;width:65%}}
+/*# sourceMappingURL=78.d44868b7.chunk.css.map*/
