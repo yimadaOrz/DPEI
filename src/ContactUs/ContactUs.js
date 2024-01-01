@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import GoogleMap from '../Map/Map';
 import { Input } from 'antd';
+
 import Button from 'react-bootstrap/Button';
 import { TelephoneFill, GeoAltFill, EnvelopeFill, Clock } from 'react-bootstrap-icons';
 import WeChatImg from '../HomePgae/Information/wechat.svg';
@@ -10,6 +11,7 @@ import { useTranslation } from "react-i18next";
 
 
 import './ContactUs.css';
+import AboutUsImage from "../CompanyOverview/AboutUs/DPEI.jpg";
 const { TextArea } = Input;
 
 
@@ -22,18 +24,20 @@ const ContactUs = () => {
             <div className = "ContactUs_container">
                 <div  className = "ContactUs_inner_container">
                    <div className = "ContactUs_inner_left_container">
-                       <h1 className='left_title'>{t("ContactUs.item1.title")}</h1>
-                       <div className='ContactUs_inner_left_flexFirrstRow_container'>
-                       <TextArea className ="name_field"  placeholder={t("ContactUs.item1.subitem1")}/>
-                       <TextArea className ="email_field"  placeholder={t("ContactUs.item1.subitem2")}/>
-                       </div>
-                       <div className='ContactUs_inner_left_flexSecondRow_container'>
-                       <TextArea rows={2} cols={10} className ="phone_field"  placeholder={t("ContactUs.item1.subitem3")}/>
-                       </div>
-                       <div className='ContactUs_inner_left_flexThirdRow_container'>
-                       <TextArea rows={2} cols={10} className ="message_field"   placeholder={t("ContactUs.item1.subitem4")}/>
-                       </div>
-                       <Button variant="primary" className='submit_button'>Send</Button>{' '}
+                       <img className= "about_us_img" src ={AboutUsImage}/>
+
+                       {/*<h1 className='left_title'>{t("ContactUs.item1.title")}</h1>*/}
+                       {/*<div className='ContactUs_inner_left_flexFirrstRow_container'>*/}
+                       {/*<TextArea className ="name_field"  placeholder={t("ContactUs.item1.subitem1")}/>*/}
+                       {/*<TextArea className ="email_field"  placeholder={t("ContactUs.item1.subitem2")}/>*/}
+                       {/*</div>*/}
+                       {/*<div className='ContactUs_inner_left_flexSecondRow_container'>*/}
+                       {/*<TextArea rows={2} cols={10} className ="phone_field"  placeholder={t("ContactUs.item1.subitem3")}/>*/}
+                       {/*</div>*/}
+                       {/*<div className='ContactUs_inner_left_flexThirdRow_container'>*/}
+                       {/*<TextArea rows={2} cols={10} className ="message_field"   placeholder={t("ContactUs.item1.subitem4")}/>*/}
+                       {/*</div>*/}
+                       {/*<Button variant="primary" className='submit_button'>Send</Button>{' '}*/}
                    </div>
                    
                    <div className = "ContactUs_inner_right_container">
