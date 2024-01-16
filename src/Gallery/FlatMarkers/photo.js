@@ -1,5 +1,5 @@
 
-    import img1 from './photos/P1652 36x24.jpg';
+    import img1 from './photos/P1652 24x12.jpg';
 import img2 from './photos/P1887 24x12.jpg';
 import img3 from './photos/P2002 24x12.jpg';
 import img4 from './photos/P2015 24x12.jpg';
